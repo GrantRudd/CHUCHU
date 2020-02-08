@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: baxter_pykdl
+Version: 0.1.0
+Summary: Kyle toying with PyKDL, kdl_parser_py
+Home-page: http://sdk.rethinkrobotics.com/wiki
+Author: Kyle Maroney
+Author-email: kmaroney@rethinkrobotics.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

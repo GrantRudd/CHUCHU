@@ -1,0 +1,31 @@
+<launch>
+  <arg name="train" default="false" />
+  <param name="train_flag" type="bool" value="$(arg train)" />
+
+  <node pkg="chuchu_workstation"
+        name="ws_master_node"
+        type="master_node.py"
+        output="screen">
+  </node>
+
+  
+  <node pkg="chuchu_workstation"
+        name="NN_node"
+        type="ml_node.py"
+        output="screen">
+  </node>
+
+  <node pkg="chuchu_workstation"
+        name="controller_node"
+        type="controller_node.py"
+        output="screen">
+  </node>
+
+  <group if="$(arg train)">
+    <node pkg="chuchu_workstation"
+          name="training_node"
+          type="training_node.py"
+          output="screen">
+    </node> 
+  </group>
+</launch>

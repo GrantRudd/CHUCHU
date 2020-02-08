@@ -1,0 +1,8 @@
+prefix=/home/grant/ros_ws/install
+
+Name: tnodetest
+Description: Description of tnodetest
+Version: 0.0.0
+Cflags: -I/home/grant/ros_ws/install/include
+Libs: -L/home/grant/ros_ws/install/lib -ltnodetest
+Requires: roscpp std_msgs message_runtime

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/grant/ros_ws/src/chuchu_workstation/src/machine_learning_node/tmp/redball.ckpt"
+all_model_checkpoint_paths: "/home/grant/ros_ws/src/chuchu_workstation/src/machine_learning_node/tmp/redball.ckpt"

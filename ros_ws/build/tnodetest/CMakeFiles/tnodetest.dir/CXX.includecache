@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/grant/ros_ws/src/tnodetest/include/tactile_node/MPL115A2.h
+tactile_node/i2c.h
+-
+unistd.h
+-
+stdint.h
+-
+cmath
+-
+cstdio
+-
+
+/home/grant/ros_ws/src/tnodetest/include/tactile_node/i2c.h
+stdio.h
+-
+fcntl.h
+-
+sys/ioctl.h
+-
+linux/i2c-dev.h
+-
+unistd.h
+-
+stdint.h
+-
+
+/home/grant/ros_ws/src/tnodetest/src/tactile_node/MPL115A2.cpp
+tactile_node/MPL115A2.h
+-
+

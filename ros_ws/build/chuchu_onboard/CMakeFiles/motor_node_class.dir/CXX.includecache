@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/grant/ros_ws/src/chuchu_onboard/src/motor_node_class.cpp
+motor_node_class.hpp
+/home/grant/ros_ws/src/chuchu_onboard/src/motor_node_class.hpp
+
+/home/grant/ros_ws/src/chuchu_onboard/src/motor_node_class.hpp
+

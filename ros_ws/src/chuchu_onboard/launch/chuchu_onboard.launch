@@ -1,0 +1,23 @@
+<launch>
+  <node pkg="chuchu_onboard"
+        name="motor_node"
+        type="motor_node">
+  </node>
+
+  <node pkg="chuchu_onboard"
+        name="tactile_node"
+        type="tactile_node">
+  </node>
+
+  <node pkg="chuchu_onboard"
+        name="onboard_master_node"
+        type="master_node">
+  </node>
+  
+  <group ns="pid_gains">
+    <param name="P" value="1.0"/>
+    <param name="I" value="0.0"/>
+    <param name="D" value="0.2"/>
+  </group>
+  
+</launch>

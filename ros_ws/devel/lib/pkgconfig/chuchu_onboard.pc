@@ -1,0 +1,8 @@
+prefix=/home/grant/ros_ws/devel
+
+Name: chuchu_onboard
+Description: Description of chuchu_onboard
+Version: 0.0.0
+Cflags: -I/home/grant/ros_ws/devel/include -I/home/grant/ros_ws/src/chuchu_onboard/include
+Libs: -L/home/grant/ros_ws/devel/lib -lchuchu_onboard
+Requires: roscpp std_msgs message_runtime
